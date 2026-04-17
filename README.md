@@ -16,6 +16,9 @@ And for the sake of simplicity, I have not considered MacOS users for this proje
 This is not the project you are looking for. But you might find it [here]().
 
 
+---
+
+
 ## What did I do
 
 I am using an existing patch for SEB which can be setup using the instructions in [the section bellow]. After applying this patch safe browser is modified. Now it will not stop the user from opening an instance of an LLM in another desktop view.
@@ -23,6 +26,9 @@ I am using an existing patch for SEB which can be setup using the instructions i
 However, as you may observe bellow, this patched version of safe browser looks quite different from the original one. The windows taskbar is now visible and some buttons have changed their styling. The changes are quite noticable actually.
 
 [IMAGES]
+
+
+---
 
 
 ## What I tried (and absolutely did not work)
@@ -36,6 +42,9 @@ but this still looks different because SEB has it's own custom taskbar which is 
 - I had one of my friends run SEB in a virtual machine to overcome it's restrictions but this trick straight up failed (nicely played by the developers). 
 
 - Another solution would be to disable the taskbar and the shortcut keys on windows completely but again, SEB has it's own custom taskbar which we cannot get without an overlay on the screen, and just to be realistic here, why bother disabling half of your convenience just for a simple exam? There is a nice solution to all of this, exactly **what I came up with**.
+
+
+---
 
 
 ## What I came up with
@@ -55,6 +64,9 @@ Since our shortcut keys are disabled, now we have to figure out some way to actu
 A nice way around it would be to use [tesseract OCR]() in a python script to read the question on the screen and use some LLM-based api to solve it. Assuming we all want this to be free I have considered using [Gemini](https://gemini.com) for this task. 
 
 And, for the sake of avoiding pressing/holding a lot I have considered using only two keys of the user's choice (configurable in `config.json`). One takes the OCR of the screen to capture a question, and the other displays the answer to the captured question on the screen.
+
+
+---
 
 
 ## Setup (this is very complex, trust)
