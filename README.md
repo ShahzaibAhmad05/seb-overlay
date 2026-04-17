@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > This repository is only meant to **expose the unsafe side** of safe exam browser and indirectly give the original developers ideas to make it safer.
 >
-> I am NOT responsible for anyone using this overlay project in any way as it is not open-source. Further details are explicitly stated in the [LICENSE]().
+> I am NOT allowing anyone using this overlay project in any way to cheat in exams and it is NOT open-source. Further details are explicitly stated in the [LICENSE]().
 
 
 This documentation bellow is fully typed by me. I appreciate anyone reading. One thing to note is that in some places I have used the acronym SEB which essentially just means **Safe Exam Browser**.
@@ -11,9 +11,12 @@ This documentation bellow is fully typed by me. I appreciate anyone reading. One
 And for the sake of simplicity, I have not considered MacOS users for this project since neither do I nor any of my friends have a Mac.
 
 
+---
+
+
 ### If you are here to just patch SEB and cheat in Exams
 
-This is not the project you are looking for. But you might find it [here]().
+This is not the project you are looking for. Go away please.
 
 
 ---
