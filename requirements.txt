@@ -7,4 +7,5 @@ pytesseract
 Pillow
 polars
 pywin32
+python-dotenv
 
