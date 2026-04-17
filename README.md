@@ -70,12 +70,18 @@ git clone https://github.com/ShahzaibAhmad05/seb-overlay
 cd seb-overlay
 ```
 
-2) Activate a virtual environment **(optional, skip if you are unfamiliar)**:
+2) Activate a virtual environment and activate it **(optional, skip if you are unfamiliar)**:
 
 ```bash
 # it will work with older/newer versions as well
 # but I have used this one
 py -3.13 -m venv .venv
+```
+
+3) Install the requirements:
+
+```bash
+pip install -r requirements.txt
 ```
 
 3) Install Safe Exam Browser [VERSION] (the original one) from [here]().

@@ -1,0 +1,10 @@
+google-generativeai
+PyQt5
+pyautogui
+pyperclip
+keyboard
+pytesseract
+Pillow
+polars
+pywin32
+
