@@ -100,7 +100,7 @@ python -m overlay
 
 8) An overlay will popup on the screen. It will stay on the top of the screen by default. There is a key `TOGGLE_OVERLAY` in `config.json`. By default it is set to *Ctrl+Alt+T* which is the safest I could figure out. `Win` key is disabled automatically by this script.
 
-9) Make sure to turn off these shortcuts from windows settings, in the name of safety: 
+9) Make sure to turn off these shortcuts from windows settings "in the name of safety": 
 
 ```txt
 Ctrl+Win+ArrowKey -> Changes the desktop view
@@ -111,15 +111,21 @@ I prefer not to write an extra 50-line documentation on how to turn these off, s
 
 I would want you to find your own way to solve your exam from here since you have the overlay module running.
 
-10) Now SEB should look real. But since we turned off our VERY useful shortcut keys, we have to use the `mcq` module to be able to solve the exam. Open **seb-overlay** project again and run this:
+10) Now SEB should look real. But since we turned off our VERY useful shortcut keys, we have to use the `mcq` module to be able to solve the exam. First create the `.env` file using the command bellow and put in your Gemini api keys, which you can get from [here]().
+
+```bash
+cp .env.example .env
+```
+
+11) Now run the `mcq` module:
 
 ```bash
 python -m mcq
 ```
 
-11) The default keys for using this script would be `M` for the OCR, and `L` for displaying the answer. You may also need to put your gemini api keys in `.env` which you can get from [here]().
+12) The default keys for using this script would be `M` for the OCR, and `L` for displaying the answer. You may also need to put your gemini api keys in `.env` 
 
-12) Now when you press `M`, an OCR is taken, and after a time interval of a few seconds, the answer is fetched and saved. When you press `L`, the answer will display at the corner of your screen.
+13) Now when you press `M`, an OCR is taken, and after a time interval of a few seconds, the answer is fetched and saved. When you press `L`, the answer will display at the corner of your screen.
 
 > [!NOTE]
 > I hope at this point it is clear how this works. If you have any confusions setting this up, feel free to open an issue here. I would reply.
